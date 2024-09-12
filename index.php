@@ -60,8 +60,8 @@ class Voiture
 
 }
 
-$mavoiture1 = new Voiture("Mercedes", "GLS", "Diesel");
-$mavoiture2 = new Voiture("Peugeot", "5008", "Electrique");
+$mavoiture1 = new Voiture("Fiant 500", "GLS", "Diesel");
+$mavoiture2 = new Voiture("Cupra", "5008", "Electrique");
 echo $mavoiture1->afficherNouvelleVoiture() . "<br>";
 echo $mavoiture2->afficherNouvelleVoiture();
 

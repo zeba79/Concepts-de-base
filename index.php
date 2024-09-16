@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <title>POO Concept de base</title>
 </head>
 <body>
+    <div class="container">
+
+
     <h1>POO Concept de base</h1>
 
     <?php
@@ -66,6 +71,10 @@ echo $mavoiture1->afficherNouvelleVoiture() . "<br>";
 echo $mavoiture2->afficherNouvelleVoiture();
 
 ?>
+<h1>Bonjour et bienvenue ! <i class="bi bi-airplane"></i></h1>
+<button class="btn btn-primary"> Hello !</button>
+</div>
 
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

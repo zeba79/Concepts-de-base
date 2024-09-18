@@ -11977,15 +11977,17 @@ h1, .h1 {
 html {
   position: relative;
   min-height: 100%;
+  margin: 10px;
 }
 
-header {
-  margin: 10px;
+nav {
   border-radius: 15px;
 }
 
 main {
-  margin-bottom: 150px;
+  margin-bottom: 300px;
+  margin-top: 10px;
+  padding: 5px;
 }
 
 footer.footer {

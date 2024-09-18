@@ -45,7 +45,11 @@
 <button class="btn btn-primary"> Cliquez ici !</button>
 <div>
 
+<<<<<<< HEAD
 <main class="main-page" >
+=======
+
+>>>>>>> a501fae84e9c91db589d3987cfbaca35c82452f0
 
     <?php
 class Voiture
@@ -104,7 +108,10 @@ echo $mavoiture2->afficherNouvelleVoiture();
 ?>
 </div>
 </div>
+<<<<<<< HEAD
 </main>
+=======
+>>>>>>> a501fae84e9c91db589d3987cfbaca35c82452f0
 
 <footer class="bg-dark text-white text-center footer" >
     <div class="row">

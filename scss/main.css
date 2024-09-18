@@ -11977,6 +11977,7 @@ h1, .h1 {
 html {
   position: relative;
   min-height: 100%;
+<<<<<<< HEAD
   margin: 10px;
 }
 
@@ -11986,12 +11987,19 @@ header {
 
 main {
   margin-bottom: 150px;
+=======
+>>>>>>> a501fae84e9c91db589d3987cfbaca35c82452f0
 }
 
 footer.footer {
   padding: 15px;
   position: absolute;
+<<<<<<< HEAD
   bottom: 0;
   width: 100%;
   border-radius: 15px;
+=======
+  bottom: 0px;
+  width: 100%;
+>>>>>>> a501fae84e9c91db589d3987cfbaca35c82452f0
 }/*# sourceMappingURL=main.css.map */

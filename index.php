@@ -41,9 +41,11 @@
 </nav>
     </header>
     <div class="container">
+    <h1>Bonjour et bienvenue dans la POO Concept de base! <i class="bi bi-airplane"></i></h1>
+<button class="btn btn-primary"> Cliquez ici !</button>
+<div>
 
 
-    <h1>POO Concept de base</h1>
 
     <?php
 class Voiture
@@ -103,9 +105,27 @@ echo $mavoiture1->afficherNouvelleVoiture() . "<br>";
 echo $mavoiture2->afficherNouvelleVoiture();
 
 ?>
-<h1>Bonjour et bienvenue ! <i class="bi bi-airplane"></i></h1>
-<button class="btn btn-primary"> Hello !</button>
 </div>
+</div>
+
+<footer class="bg-dark text-white text-center footer" >
+    <div class="row">
+        <div class="col-12 col-lg-4" >
+            <h3 class="text-primary" >Nos horaires</h3>
+            <p>Du mardi au dimanche  12:00-14h00  18:00-23</p>
+        </div>
+        <div class="col-6 col-lg-4">
+            <p>Quai Antique<br/>
+            5 Bouvlevard de la Paix <br/>
+            69001 LYON <br/>
+            04 55 66 55 66
+            </p>
+        </div>
+        <div class="col-3 col-lg-4">
+            contact@quaiantique.com
+        </div>
+    </div>
+</footer>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

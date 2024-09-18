@@ -11972,4 +11972,26 @@ body {
 
 h1, .h1 {
   color: #582F0E;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  margin: 10px;
+}
+
+header {
+  border-radius: 15px;
+}
+
+main {
+  margin-bottom: 150px;
+}
+
+footer.footer {
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 15px;
 }/*# sourceMappingURL=main.css.map */

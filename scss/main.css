@@ -11972,14 +11972,6 @@ html {
   margin: 10px;
 }
 
-nav {
-  border-radius: 15px;
-}
-
-main {
-  border-radius: 15px;
-}
-
 footer.footer {
   padding: 15px;
   position: absolute;
@@ -11988,7 +11980,12 @@ footer.footer {
   border-radius: 15px;
 }
 
+main {
+  margin-bottom: 150px;
+}
+
 .hero-scene {
+  margin: 10px 0px;
   position: relative;
 }
 .hero-scene::before {
@@ -12007,7 +12004,7 @@ footer.footer {
 }
 
 .hero-scene .hero-scene-content {
-  height: 300px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;

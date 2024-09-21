@@ -11977,7 +11977,6 @@ footer.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  border-radius: 15px;
 }
 
 main {
@@ -12015,4 +12014,29 @@ main {
 
 .text-justify {
   text-align: justify;
+}
+
+.image-card {
+  position: relative;
+}
+.image-card:hover .titre-image {
+  opacity: 1;
+}
+.image-card:hover img {
+  filter: brightness(0.4);
+}
+.image-card img {
+  transition: all 0.3s;
+}
+.image-card .titre-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.galerie {
+  margin-bottom: 300px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,5 +1,5 @@
 
 <?php
-require_once './header.php';
-require_once './main.php';
-require_once './footer.php';
+require_once './templates/header.php';
+require_once './templates/home.php';
+require_once './templates/footer.php';

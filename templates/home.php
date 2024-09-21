@@ -9,7 +9,7 @@
     </div>
 
 
-    <section>
+    <section >
         <article>
             <div class="container p-4">
                 <div>
@@ -26,7 +26,8 @@
                     </div>
                 </div>
                 <div class="text-center p-4" >
-                    <a href="#" class="btn btn-primary text-center" >Nos Menus</a>
+                    <a href="laCarte.php
+                    " class="btn btn-primary text-center" >Nos Menus</a>
                 </div>
             </div>
         </article>
@@ -46,7 +47,7 @@
                     </div>
                 </div>
                 <div class="text-center p-4" >
-                    <a href="#" class="btn btn-primary text-center" >Voir galerie</a>
+                    <a href="galerie.php" class="btn btn-primary text-center" >Voir galerie</a>
                 </div>
             </div>
         </article>
@@ -66,7 +67,7 @@
                     </div>
                 </div>
                 <div class="text-center p-4" >
-                    <a href="#" class="btn btn-primary text-center" >Réserver</a>
+                    <a href="reservations.php" class="btn btn-primary text-center" >Réserver</a>
                 </div>
             </div>
         </article>

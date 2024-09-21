@@ -20,19 +20,19 @@
           <a class="nav-link"  href="/">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Galerie</a>
+          <a class="nav-link" href="galerie.php">Galerie</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">La Carte</a>
+          <a class="nav-link" href="laCarte.php">La Carte</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Les Réservation</a>
+          <a class="nav-link" href="reservations.php">Les Réservation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Mon Compte</a>
+          <a class="nav-link" href="logIn.php">Mon Compte</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Connexion/Déconnexion</a>
+          <a class="nav-link" href="logOut.php">Connexion/Déconnexion</a>
         </li>
 
       </ul>

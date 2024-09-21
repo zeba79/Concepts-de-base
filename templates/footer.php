@@ -11,7 +11,7 @@
             04 55 66 55 66
             </p>
         </div>
-        <div class="col-3 col-lg-4">
+        <div class="col-6 col-lg-4">
             contact@quaiantique.com
         </div>
     </div>

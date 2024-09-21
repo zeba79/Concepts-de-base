@@ -7,7 +7,7 @@
 
         </div>
 </div>
-<div class="container">
+<div class="container mb-5">
     <form>
         <div class="mb-3">
             <label for="email" class="form-label">Email address</label>
@@ -18,7 +18,7 @@
             <input type="password" class="form-control" id="password" >
         </div>
         <div class="text-center">
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Connexion</button>
         </div>
         <div class="text-center pt-3">
             <a href="/pages/signUp.php">Vous n'avez pas encore de compte ? cliquez ici !</a>

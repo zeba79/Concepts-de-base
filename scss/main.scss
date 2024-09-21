@@ -61,18 +61,32 @@ main{
     position: relative;
 
     &:hover{
-        .titre-image{
-            opacity: 1;
-        }
         img{
             filter: brightness(0.4);
         }
-    }
-    img{
-        transition: all 0.3s;
+
+        .titre-image, .supprimer, .modifier{
+            opacity: 1;
+        }
     }
 
-  
+    img, .supprimer, .modifier, .titre-image{
+        transition: all 0.8s;
+    }
+
+    .supprimer{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        opacity: 0;       
+    }
+
+    .modifier{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        opacity: 0;
+    }
 
     .titre-image{
         position: absolute;
@@ -80,9 +94,9 @@ main{
         left: 50%;
         transform: translate(-50%, -50%);
         opacity: 0;
-        transition: all 0.3s;
     }
 }
+
 .galerie{
     margin-bottom: 300px;
 }

@@ -20,7 +20,7 @@
           <a class="nav-link"  href="/">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="galerie.php">Galerie</a>
+          <a class="nav-link" href="/pages/galerie.php">Galerie</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="laCarte.php">La Carte</a>
@@ -32,7 +32,7 @@
           <a class="nav-link" href="logIn.php">Mon Compte</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="logOut.php">Connexion/Déconnexion</a>
+          <a class="nav-link" href="../pages/logIn.php">Connexion</a>
         </li>
 
       </ul>

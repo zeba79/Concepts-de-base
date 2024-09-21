@@ -22,7 +22,7 @@ main{
 }
 
 .hero-scene{
-    margin: 10px 0px;  
+    margin: 15px 0px;  
     position: relative;
     &::before{
         content: "";
@@ -99,4 +99,8 @@ main{
 
 .galerie{
     margin-bottom: 300px;
+}
+
+.form-label{
+    color: $primary;
 }

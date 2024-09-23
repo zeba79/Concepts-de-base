@@ -25,6 +25,10 @@
         </div>
         <div class="text-center">
             <button type="submit" class="btn btn-primary">Modifier vos informations</button>
+            <button type="button" class="btn btn-danger">Supprimer votre compte</button>
+        </div>
+        <div class="text-center pt-3">
+            <a href="/pages/editPassword.php">Cliquez ici pour modifier votre mot de passe !</a>
         </div>
     </form>
 </div>

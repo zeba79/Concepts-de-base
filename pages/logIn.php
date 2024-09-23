@@ -2,9 +2,7 @@
 
 <div class="hero-scene text-center text-white ">
         <div class="hero-scene-content" >
-
             <h1>Connexion</h1>
-
         </div>
 </div>
 <div class="container mb-5">

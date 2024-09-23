@@ -2,13 +2,11 @@
 
 <div class="hero-scene text-center text-white ">
         <div class="hero-scene-content" >
-
             <h1>Inscription</h1>
-
         </div>
 </div>
-<div class="container">
-    <form>
+<div class="container signUp ">
+    <form >
         <div class="mb-3">
             <label for="nom" class="form-label">Nom</label>
             <input type="text" class="form-control" id="nom" placeholder="Votre nom">
@@ -33,7 +31,7 @@
             <button type="submit" class="btn btn-primary">Inscription</button>
         </div>
         <div class="text-center pt-3">
-            <a href="/pages/logIn.php">Vous avez déjà encore de compte ? Connectez-vous par ici !</a>
+            <a href="/pages/logIn.php">Vous avez déjà un compte ? Connectez-vous par ici !</a>
         </div>
     </form>
 </div>

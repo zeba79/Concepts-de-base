@@ -12048,7 +12048,7 @@ main {
   opacity: 0;
 }
 
-.galerie {
+.galerie, .signUp {
   margin-bottom: 300px;
 }
 

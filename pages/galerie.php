@@ -8,8 +8,8 @@
         </div>
 </div>
 
-    <div class="container">
-        <div class=" row row-cols-2 row-cols-lg-3 galerie">
+    <div class="container galerie">
+        <div class=" row row-cols-2 row-cols-lg-3 ">
             <div class="col p-3">
                 <div class="image-card text-dark ">
                     <img src="../img/food-908745_640.jpg" class="w-100 rounded" alt="">

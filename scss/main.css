@@ -12022,10 +12022,10 @@ main {
 .image-card:hover img {
   filter: brightness(0.4);
 }
-.image-card:hover .titre-image, .image-card:hover .supprimer, .image-card:hover .modifier {
+.image-card:hover .titre-image, .image-card:hover .action-images-bouton {
   opacity: 1;
 }
-.image-card img, .image-card .supprimer, .image-card .modifier, .image-card .titre-image {
+.image-card img, .image-card .titre-image, .image-card .action-images-bouton {
   transition: all 0.8s;
 }
 .image-card .supprimer {
@@ -12045,6 +12045,17 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.image-card .action-images-bouton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   opacity: 0;
 }
 

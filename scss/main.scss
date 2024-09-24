@@ -65,12 +65,12 @@ main{
             filter: brightness(0.4);
         }
 
-        .titre-image, .supprimer, .modifier{
+        .titre-image, .action-images-bouton{
             opacity: 1;
         }
     }
 
-    img, .supprimer, .modifier, .titre-image{
+    img, .titre-image, .action-images-bouton{
         transition: all 0.8s;
     }
 
@@ -93,6 +93,18 @@ main{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+
+    .action-images-bouton{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         opacity: 0;
     }
 }

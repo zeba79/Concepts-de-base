@@ -102,28 +102,27 @@
         </div>
     </div>
 
-
-
-    <!-- Modal edition qui ne fonctionne pas encore au 25/09/2024-->
+    <!-- Modal edition-->
 <div class="modal fade" id="EditionPhotoModal" tabindex="-1" aria-labelledby="EditionPhotoModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h2 class="modal-title fs-5" id="EditionPhotoModalLabel">Edition Photo</h2>
+          <h2 class="modal-title fs-4" id="EditionPhotoModalLabel">Ajouter un menu</h2>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
             <form>
                 <div class="mb-3">
-                  <label for="NamePhotoInput" class="form-label">Titre</label>
+                  <label for="NamePhotoInput" class="form-label ">Nom du plat</label>
                   <input type="text" class="form-control" id="NamePhotoInput" placeholder="Lasagnes à la bolognese" name="Titre">
                 </div>
                 <div class="mb-3">
                   <label for="ImageInput" class="form-label">Image</label>
                   <input type="file" class="form-control" id="ImageInput"  name="Image">
                 </div>
-                <div class="text-center">
-                    <button type="button" class="btn btn-primary">Enregistrer</button>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-success">Enregistrer</button>
                 </div>
             </form>
         </div>

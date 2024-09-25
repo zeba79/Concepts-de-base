@@ -2,24 +2,24 @@
 
 <div class="hero-scene text-center text-white ">
         <div class="hero-scene-content" >
-            <h1>Connexion</h1>
+            <h1>Changer mon mot de passe</h1>
         </div>
 </div>
-<div class="container mb-5">
-    <form>
-        <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="test@test.fr">
-        </div>
+<div class="container signUp ">
+    <form >
         <div class="mb-3">
             <label for="password" class="form-label">Password</label>
             <input type="password" class="form-control" id="password" >
         </div>
+        <div class="mb-3">
+            <label for="passwordValidate" class="form-label">validation mot de passe</label>
+            <input type="password" class="form-control" id="passwordValidate" >
+        </div>
         <div class="text-center">
-            <button type="submit" class="btn btn-primary">Connexion</button>
+            <button type="submit" class="btn btn-primary">Modifier mon mote de passe</button>
         </div>
         <div class="text-center pt-3">
-            <a href="/pages/signUp.php">Vous n'avez pas encore de compte ? cliquez ici !</a>
+            <a href="/Auth/logIn.php">Connectez-vous par ici sans changer votre mot de passe !</a>
         </div>
     </form>
 </div>

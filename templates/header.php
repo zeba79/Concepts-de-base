@@ -29,10 +29,10 @@
               <a class="nav-link" href="/pages/reservations.php">Les Réservation</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/monCompte.php">Mon Compte</a>
+              <a class="nav-link" href="../Auth/monCompte.php">Mon Compte</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/logIn.php">Connexion</a>
+              <a class="nav-link" href="../Auth/logIn.php">Connexion</a>
             </li>
 
           </ul>

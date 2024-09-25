@@ -2,11 +2,11 @@
 
 <div class="hero-scene text-center text-white ">
         <div class="hero-scene-content" >
-            <h1>Inscription</h1>
+            <h1>Mon Compte</h1>
         </div>
 </div>
-<div class="container signUp ">
-    <form >
+<div class="container ">
+    <form class="signUp">
         <div class="mb-3">
             <label for="nom" class="form-label">Nom</label>
             <input type="text" class="form-control" id="nom" placeholder="Votre nom">
@@ -16,22 +16,19 @@
             <input type="text" class="form-control" id="prenom" placeholder="Votre prénom">
         </div>
         <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="test@test.fr">
+             <label for="allergie" class="form-label">Allergies</label>
+            <input type="text" class="form-control" id="allergie" placeholder="Vos allergies (fruits de mer, arachides, ...">
         </div>
         <div class="mb-3">
-            <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" >
-        </div>
-        <div class="mb-3">
-            <label for="passwordValidate" class="form-label">validation mot de passe</label>
-            <input type="password" class="form-control" id="passwordValidate" >
+             <label for="NbConvive" class="form-label">Nombre de convives habituels</label>
+            <input type="number" class="form-control" id="NbConvive" placeholder="Combien êtes-vous souvent ?">
         </div>
         <div class="text-center">
-            <button type="submit" class="btn btn-primary">Inscription</button>
+            <button type="submit" class="btn btn-primary">Modifier mes informations</button>
+            <button type="button" class="btn btn-danger">Supprimer mon compte</button>
         </div>
         <div class="text-center pt-3">
-            <a href="/pages/logIn.php">Vous avez déjà un compte ? Connectez-vous par ici !</a>
+            <a href="/Auth/editPassword.php">Cliquez ici pour modifier votre mot de passe !</a>
         </div>
     </form>
 </div>

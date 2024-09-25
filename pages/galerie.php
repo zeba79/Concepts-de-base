@@ -18,14 +18,14 @@ require_once '../config/config.php'
                 <div class="image-card text-dark ">
                     <img src="../img/food-908745_640.jpg" class="w-100 rounded" alt="">
                     <div class="action-images-bouton">
-                        <button type="button" class="btn btn-outline-light ">
-                            <i class="bi bi-pencil-square"></i>
+                        <button type="button" class="btn btn-outline-light " >
+                            <?=_ICONE_MODIFIER_;?>
                         </button>
                         <button type="button" class="btn btn-outline-light ">
-                            <i class="bi bi-trash"></i>
+                            <?=_ICONE_SUPPRIMER_;?>
                         </button>
                     </div>
-                    <?=_RESERVER_?>
+                    <?=_BOUTON_RESERVER_?>
                 </div>
             </div>
             <div class="col p-3">
@@ -33,13 +33,13 @@ require_once '../config/config.php'
                     <img src="../img/gastronomy-2853387_640.jpg" class="w-100 rounded" alt="">
                     <div class="action-images-bouton">
                         <button type="button" class="btn btn-outline-light ">
-                            <i class="bi bi-pencil-square"></i>
+                            <?=_ICONE_MODIFIER_;?>
                         </button>
                         <button type="button" class="btn btn-outline-light ">
-                            <i class="bi bi-trash"></i>
+                        <?=_ICONE_SUPPRIMER_;?>
                         </button>
                     </div>
-                    <?=_RESERVER_?>
+                    <?=_BOUTON_RESERVER_?>
                 </div>
             </div>
             <div class="col p-3">
@@ -47,13 +47,13 @@ require_once '../config/config.php'
                     <img src="../img/istockphoto-1445690717-1024x1024.jpg" class="w-100 rounded" alt="">
                     <div class="action-images-bouton">
                         <button type="button" class="btn btn-outline-light ">
-                            <i class="bi bi-pencil-square"></i>
+                            <?=_ICONE_MODIFIER_;?>
                         </button>
                         <button type="button" class="btn btn-outline-light ">
-                            <i class="bi bi-trash"></i>
+                        <?=_ICONE_SUPPRIMER_;?>
                         </button>
                     </div>
-                    <?=_RESERVER_?>
+                    <?=_BOUTON_RESERVER_?>
                 </div>
             </div>
             <div class="col p-3">
@@ -61,13 +61,13 @@ require_once '../config/config.php'
                     <img src="../img//salmon-sashimi-3637245_640.jpg" class="w-100 rounded" alt="">
                     <div class="action-images-bouton">
                         <button type="button" class="btn btn-outline-light ">
-                            <i class="bi bi-pencil-square"></i>
+                            <?=_ICONE_MODIFIER_;?>
                         </button>
                         <button type="button" class="btn btn-outline-light ">
-                            <i class="bi bi-trash"></i>
+                            <?=_ICONE_SUPPRIMER_;?>
                         </button>
                     </div>
-                    <?=_RESERVER_?>
+                    <?=_BOUTON_RESERVER_?>
                 </div>
             </div>
             <div class="col p-3">
@@ -75,13 +75,13 @@ require_once '../config/config.php'
                     <img src="../img/salmon-sashimi-3637245_640.jpg" class="w-100 rounded" alt="">
                     <div class="action-images-bouton">
                         <button type="button" class="btn btn-outline-light ">
-                            <i class="bi bi-pencil-square"></i>
+                            <?=_ICONE_MODIFIER_;?>
                         </button>
                         <button type="button" class="btn btn-outline-light ">
-                            <i class="bi bi-trash"></i>
+                            <?=_ICONE_SUPPRIMER_;?>
                         </button>
                     </div>
-                    <?=_RESERVER_?>
+                    <?=_BOUTON_RESERVER_;?>
                 </div>
             </div>
             <div class="col p-3">
@@ -89,13 +89,13 @@ require_once '../config/config.php'
                     <img src="../img/sashimi-1787626_640.jpg" class="w-100 rounded" alt="">
                     <div class="action-images-bouton">
                         <button type="button" class="btn btn-outline-light ">
-                            <i class="bi bi-pencil-square"></i>
+                        <?=_ICONE_MODIFIER_;?>
                         </button>
                         <button type="button" class="btn btn-outline-light ">
-                            <i class="bi bi-trash"></i>
+                        <?=_ICONE_SUPPRIMER_;?>
                         </button>
                     </div>
-                    <?=_RESERVER_?>
+                    <?=_BOUTON_RESERVER_?>
                 </div>
             </div>
         </div>

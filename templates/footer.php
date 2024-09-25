@@ -1,3 +1,4 @@
+</main>
 <footer class="bg-dark text-white text-center footer" >
     <div class="row">
         <div class="col-12 col-lg-4" >
@@ -16,7 +17,7 @@
         </div>
     </div>
 </footer>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,5 +1,4 @@
 
-<main  >
     <div class="hero-scene text-center text-white ">
         <div class="hero-scene-content" >
             <p>Le chef Arnaud Michant vous invite aurestaurant quai Antique</p>
@@ -7,7 +6,6 @@
             <button class="btn btn-primary"> Réserver</button>
         </div>
     </div>
-
 
     <section >
         <article>
@@ -72,4 +70,3 @@
             </div>
         </article>
     </section>
-</main>

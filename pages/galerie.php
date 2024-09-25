@@ -1,4 +1,7 @@
-<?php require_once '../templates/header.php';?>
+<?php
+require_once '../templates/header.php';
+require_once '../config/config.php'
+?>
 
 <div class="hero-scene text-center text-white ">
         <div class="hero-scene-content" >
@@ -22,7 +25,7 @@
                             <i class="bi bi-trash"></i>
                         </button>
                     </div>
-                    <p class="titre-image" ><button class="btn btn-secondary"> Réserver</button></p>
+                    <?=_RESERVER_?>
                 </div>
             </div>
             <div class="col p-3">
@@ -36,7 +39,7 @@
                             <i class="bi bi-trash"></i>
                         </button>
                     </div>
-                    <p class="titre-image" ><button class="btn btn-secondary"> Réserver</button></p>
+                    <?=_RESERVER_?>
                 </div>
             </div>
             <div class="col p-3">
@@ -50,8 +53,7 @@
                             <i class="bi bi-trash"></i>
                         </button>
                     </div>
-
-                    <p class="titre-image" ><button class="btn btn-secondary"> Réserver</button></p>
+                    <?=_RESERVER_?>
                 </div>
             </div>
             <div class="col p-3">
@@ -65,7 +67,7 @@
                             <i class="bi bi-trash"></i>
                         </button>
                     </div>
-                    <p class="titre-image" ><button class="btn btn-secondary"> Réserver</button></p>
+                    <?=_RESERVER_?>
                 </div>
             </div>
             <div class="col p-3">
@@ -79,7 +81,7 @@
                             <i class="bi bi-trash"></i>
                         </button>
                     </div>
-                    <p class="titre-image" ><button class="btn btn-secondary"> Réserver</button></p>
+                    <?=_RESERVER_?>
                 </div>
             </div>
             <div class="col p-3">
@@ -93,7 +95,7 @@
                             <i class="bi bi-trash"></i>
                         </button>
                     </div>
-                    <p class="titre-image" ><button class="btn btn-secondary"> Réserver</button></p>
+                    <?=_RESERVER_?>
                 </div>
             </div>
         </div>
@@ -102,7 +104,7 @@
         </div>
     </div>
 
-    <!-- Modal edition-->
+    <!-- Modal Ajout menu-->
 <div class="modal fade" id="EditionPhotoModal" tabindex="-1" aria-labelledby="EditionPhotoModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">

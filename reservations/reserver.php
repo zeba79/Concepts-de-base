@@ -59,9 +59,33 @@
         </div>
         <div class="text-center pt-3">
             <button type="button" class="btn btn-primary">Réserver</button>
-            <button type="button" class="btn btn-danger">Annuler</button>
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#AnnulerReservationModal">Annuler</button>
         </div>
     </form>
 </div>
 
 <?php require_once "../templates/footer.php"?>
+
+    <!-- Modal Ajout annuler ma réservation-->
+    <div class="modal fade" id="AnnulerReservationModal" tabindex="-1" aria-labelledby="AnnulerReservationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-4" id="EditionPhotoModalLabel">Annuler ma réservation</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                    <h5>Souhaiteriez-vous annuler votre réservation ?</h5>
+                </div>
+
+            </form>
+        </div>
+        <div class="modal-footer ">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Revenir en arrière</button>
+            <button type="button" class="btn btn-danger">Annuler</button>
+        </div>
+      </div>
+    </div>
+  </div>

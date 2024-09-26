@@ -12065,4 +12065,13 @@ main {
 
 .form-label {
   color: #936639;
+}
+
+.allReseration {
+  padding-bottom: 200px;
+}
+.allReseration a {
+  display: block;
+  color: #292222;
+  padding: 20px;
 }/*# sourceMappingURL=main.css.map */

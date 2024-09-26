@@ -26,7 +26,7 @@
               <a class="nav-link" href="/pages/laCarte.php">La Carte</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/pages/reservations.php">Les Réservation</a>
+              <a class="nav-link" href="/pages/reservations.php">Les Réservations</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../Auth/monCompte.php">Mon Compte</a>

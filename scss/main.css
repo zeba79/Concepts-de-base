@@ -12002,7 +12002,7 @@ main {
   position: relative;
 }
 
-.hero-scene .hero-scene-content {
+.hero-scene.hero-scene-content {
   height: 200px;
   display: flex;
   justify-content: center;
@@ -12059,8 +12059,8 @@ main {
   opacity: 0;
 }
 
-.galerie, .signUp {
-  margin-bottom: 300px;
+.galerie, .signUp, .reserver, .homepage {
+  margin-bottom: 200px;
 }
 
 .form-label {

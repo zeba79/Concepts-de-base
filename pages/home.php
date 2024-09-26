@@ -1,13 +1,13 @@
 
-    <div class="hero-scene text-center text-white ">
+    <div class="hero-scene text-center text-white pb-2">
         <div class="hero-scene-content" >
             <p>Le chef Arnaud Michant vous invite aurestaurant quai Antique</p>
             <h1>Quai Antique</h1>
-            <button class="btn btn-primary"> Réserver</button>
+            <a href="../reservations/reserver.php"><button class="btn btn-primary"> Réserver</button></a>
         </div>
     </div>
 
-    <section >
+    <section class="homepage" >
         <article>
             <div class="container p-4">
                 <div>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="text-center p-4" >
-                    <a href="galerie.php" class="btn btn-primary text-center" >Voir galerie</a>
+                    <a href="../pages/galerie.php" class="btn btn-primary text-center" >Voir galerie</a>
                 </div>
             </div>
         </article>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="text-center p-4" >
-                    <a href="reservations.php" class="btn btn-primary text-center" >Réserver</a>
+                    <a href="../reservations/reserver.php" class="btn btn-primary text-center" >Réserver</a>
                 </div>
             </div>
         </article>

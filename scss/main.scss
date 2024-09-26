@@ -42,7 +42,7 @@ main{
 
 }      
 
-.hero-scene .hero-scene-content {
+.hero-scene.hero-scene-content {
     height: 200px;
     display: flex;
     justify-content: center;
@@ -109,8 +109,8 @@ main{
     }
 }
 
-.galerie, .signUp{
-    margin-bottom: 300px;
+.galerie, .signUp, .reserver, .homepage{
+    margin-bottom: 200px;
 }
 
 .form-label{

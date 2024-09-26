@@ -5,6 +5,10 @@
         </div>
 </div>
 
+<div class="container text-center">
+    <a href="../reservations/reserver.php"class="btn btn-primary" >Réserver</a>
+</div>
+
 <div class="container text-center allReseration">
     <a href="#">
         <span>12/05/2024</span> |

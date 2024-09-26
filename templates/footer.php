@@ -5,7 +5,7 @@
             <h3 class="text-primary" >Nos horaires</h3>
             <p>Du mardi au dimanche  12:00-14h00  18:00-23</p>
         </div>
-        <div class="col-6 col-lg-4">
+        <div class="col-6 col-lg-4 text-justify">
             <p>Quai Antique<br/>
             5 Bouvlevard de la Paix <br/>
             69001 LYON <br/>

@@ -100,7 +100,7 @@ require_once '../config/config.php'
             </div>
         </div>
         <div class="text-center">
-            <button class="btn btn-primary ">Réserver</button>
+            <a href="../reservations/reserver.php"><button class="btn btn-primary ">Réserver</button></a>
         </div>
     </div>
 

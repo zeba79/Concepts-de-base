@@ -1,6 +1,7 @@
 // Implémenter le JS de ma page ici
 
 const inputNom = document.getElementById("inputNom");
+console.log(inputNom);
 const inputPrenom = document.getElementById("inputPrenom");
 const inputEmail = document.getElementById("inputEmail");
 const inputPassword = document.getElementById("inputPassword");
@@ -87,4 +88,3 @@ if(inputPwd.value == inputConfirmPwd.value){
 }
 }
 
-console.log("Bonjour");

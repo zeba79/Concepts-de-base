@@ -44,8 +44,8 @@
             <div class="invalid-feedback">
                 La confirmation du mot de passe est différente, veuillez saisir à nouveau
             </div>
-            <div class="invalid-feedback">
-                La confirmation du mot de passe est correct
+            <div class="valid-feedback">
+                La confirmation du mot de passe est correcte
             </div>
         </div>
         <div class="text-center">

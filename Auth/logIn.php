@@ -8,19 +8,26 @@
 <div class="container mb-5">
     <form>
         <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="test@test.fr">
+            <label for="inputEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="test@test.fr">
+            <div class="invalid-feedback">
+                Le mail ou le mot de passe incorrect !
+            </div>
         </div>
         <div class="mb-3">
-            <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" >
+            <label for="inputPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword" >
+            <div class="invalid-feedback">
+                Le mail ou le mot de passe incorrect !
+            </div>
         </div>
         <div class="text-center">
-            <button type="submit" class="btn btn-primary">Connexion</button>
+            <button type="button" class="btn btn-primary" id="signInBtn">Connexion</button>
         </div>
         <div class="text-center pt-3">
             <a href="/Auth/signUp.php">Vous n'avez pas encore de compte ? cliquez ici !</a>
         </div>
     </form>
 </div>
+<script src="/js/auth/logIn.js"></script>
 <?php require_once '../templates/footer.php';?>

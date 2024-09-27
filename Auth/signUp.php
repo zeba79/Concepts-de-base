@@ -29,10 +29,13 @@
             </div>
         </div>
         <div class="mb-3">
-            <label for="inputPassword" class="form-label">Password</label>
-            <input type="password" class="form-control " id="inputPassword" >
+            <label for="inputPassword" class="form-label">Mot de passe</label>
+            <input type="password" class="form-control" id="inputPassword" >
             <div class="invalid-feedback">
                 Le mot de passe doit contenir au moins 8 caractères dont 1 lettre majuscule, 1 lettre minuscule, 1 chiffre et 1 caractère spécial
+            </div>
+            <div class="valid-feedback">
+                Le mot de passe est correct !
             </div>
         </div>
         <div class="mb-3">
@@ -40,6 +43,9 @@
             <input type="password" class="form-control" id="inputPasswordValidate" >
             <div class="invalid-feedback">
                 La confirmation du mot de passe est différente, veuillez saisir à nouveau
+            </div>
+            <div class="invalid-feedback">
+                La confirmation du mot de passe est correct
             </div>
         </div>
         <div class="text-center">

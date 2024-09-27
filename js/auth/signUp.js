@@ -19,8 +19,9 @@ function validateForm(){
     const prenomOk = validateRequired(inputPrenom);
     const emailOk = validateEmail(inputEmail);
     const passwordOk = validatePassword(inputPassword);
+    const passwordConfirmOk = validateConfirmationPassword(inputPassword, inputPasswordValidate);
     
-    if(nomOk && prenomOk && emailOk && passwordOk){
+    if(nomOk && prenomOk && emailOk && passwordOk && passwordConfirmOk ){
         btnValidationInscription.disabled = false;
     } else{
         btnValidationInscription.disabled = true;
@@ -34,8 +35,8 @@ function validateRequired(input){
         input.classList.remove("is-invalid")
         return true;
     } else{
+        input.classList.add("is-invalid");
         input.classList.remove("is-valid");
-        input.classList.add("is-invalid")
         return false;
     }
 }
@@ -51,8 +52,8 @@ function validateEmail(input){
         input.classList.remove("is-invalid")
         return true;
     } else{
+        input.classList.add("is-invalid");
         input.classList.remove("is-valid");
-        input.classList.add("is-invalid")
         return false;
     }
 }
@@ -65,14 +66,25 @@ function validatePassword(input){
 
     if(passwordUser.match(passwordRegex)){
         input.classList.add("is-valid");
-        input.classList.remove("is-invalid")
+        input.classList.remove("is-invalid");
         return true;
     } else{
-        input.classList.remove("is-valid");
-        input.classList.add("is-invalid")
+        input.classList.add("is-invalid");
+        input.classList.remove("is-valid")
         return false;
     }
 }
 
+function validateConfirmationPassword(inputPwd, inputConfirmPwd){
+if(inputPwd.value == inputConfirmPwd.value){
+    inputConfirmPwd.classList.add("is-valid");
+    inputConfirmPwd.classList.remove("is-invalid");
+    return true;
+} else {
+    inputConfirmPwd.classList.add("is-invalid");
+    inputConfirmPwd.classList.remove("is-valid");
+    return false;
+}
+}
 
-
+console.log("Bonjour");

@@ -24,8 +24,9 @@
                     </div>
                 </div>
                 <div class="text-center p-4" >
-                    <a href="laCarte.php
-                    " class="btn btn-primary text-center" >Nos Menus</a>
+                    <a href="/pages/laCarte.php" class="btn btn-primary text-center" >
+                        Nos Menus
+                    </a>
                 </div>
             </div>
         </article>

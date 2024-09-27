@@ -10,11 +10,20 @@
 <form >
         <div class="mb-3">
             <label for="nom" class="form-label">Nom</label>
-            <input disabled type="text" class="form-control" id="nom" placeholder="DOE">
+            <input type="text" class="form-control" id="nom" placeholder="DOE">
         </div>
         <div class="mb-3">
             <label for="prenom" class="form-label">Prénom</label>
-            <input disabled type="text" class="form-control" id="prenom" placeholder="John">
+            <input type="text" class="form-control" id="prenom" placeholder="John">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Mail</label>
+            <input type="email" class="form-control" id="email" placeholder="Votre mail">
+        </div>
+        <div class="mb-3">
+            <label for="phone" class="form-label">Téléphone </label><br>
+            <small> Format : 05-05-05-04-02 <br></small><br>
+            <input type="tel" class="form-control"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required id="phone" placeholder="votre numéro de téléphone">
         </div>
         <div class="mb-3">
             <label for="allergies" class="form-label">Allergies</label>

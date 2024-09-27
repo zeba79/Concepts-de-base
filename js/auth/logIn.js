@@ -10,7 +10,9 @@ signBtn.addEventListener("click", checkedBtn);
 function checkedBtn(){
 
     if(mailInput.value == "zeze@zeze.fr" && passwordInput.value == "1234"){
+        // on souhaite la bienvenue à l'user
         alert("Bonjour et bienvenue chez nous");
+        // Et on le dirige sur lapage de connexion
         window.location.replace("ndex.php")
     } else {
         mailInput.classList.add("is-invalid");

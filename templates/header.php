@@ -1,3 +1,7 @@
+<?php 
+namespace header;
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
